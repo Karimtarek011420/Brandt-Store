@@ -1,0 +1,100 @@
+/* Navbar.css */
+.navbar {
+  background-color: #f8f9fa; /* Light background */
+  padding: 1rem;
+}
+
+.navbar-brand img {
+  height: 40px;
+  width: auto;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #000;
+  width: 30px;
+  height: 3px;
+  margin: 5px 0;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.btn-outline-dark {
+  color: #333;
+  border-color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-dark:hover {
+  background-color: #333;
+  color: #fff;
+}
+.social-icons .nav-link {
+  color: #555;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: red !important;
+}
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+  }
+
+  .navbar-brand {
+    margin-bottom: 15px;
+  }
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333; /* Choose a color that fits your theme */
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #007bff; /* Add a hover effect to enhance interactivity */
+}
+
+.brand-logo {
+  height: 50px; /* Adjust to match your design */
+  width: auto;
+  border-radius: 8px; /* Rounded corners for a polished look */
+  transition: transform 0.3s ease;
+}
+
+.brand-logo:hover {
+  transform: scale(1.1); /* Subtle zoom effect on hover */
+}
+
+.brand-title {
+  font-weight: bold;
+  font-family: "Arial", sans-serif; /* Customize with a clean, professional font */
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .brand-logo {
+    height: 40px;
+  }
+
+  .brand-title {
+    font-size: 1.2rem; /* Adjust for smaller screens */
+  }
+}

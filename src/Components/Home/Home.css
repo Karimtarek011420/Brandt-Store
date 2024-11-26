@@ -1,0 +1,49 @@
+/* Home.css */
+.home-card {
+  height: 600px !important;
+  position: relative;
+  color: #ffffff;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.home-card .card-img-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.home-text {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.home-card img {
+  height: 100%;
+
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .home-card {
+    height: 300px; /* Smaller height for mobile */
+  }
+
+  .home-title {
+    font-size: 2rem;
+  }
+
+  .home-text {
+    font-size: 0.9rem;
+  }
+}
